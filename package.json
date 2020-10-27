@@ -1,0 +1,27 @@
+{
+  "name": "cma-api",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "module": "src/index.js",
+  "scripts": {
+    "start": "webpack --watch --mode development",
+    "build": "webpack --mode production",
+    "test": "jest",
+    "lint": "eslint --cache --format codeframe --ext mjs,js src test"
+  },
+  "devDependencies": {
+    "@neutrinojs/jest": "^9.4.0",
+    "@neutrinojs/node": "^9.4.0",
+    "@neutrinojs/standardjs": "^9.4.0",
+    "eslint": "^7",
+    "jest": "^26",
+    "json-server": "^0.16.2",
+    "neutrino": "^9.4.0",
+    "webpack": "^4",
+    "webpack-cli": "^3"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
