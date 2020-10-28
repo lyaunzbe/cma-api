@@ -22,6 +22,7 @@
     "webpack-cli": "^3"
   },
   "dependencies": {
+    "connect-pause": "^0.1.0",
     "node-fetch": "^2.6.1"
   }
 }
